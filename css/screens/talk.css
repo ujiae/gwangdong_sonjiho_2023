@@ -49,6 +49,23 @@
 .message__author {
     opacity: 0.8;
     font-size: 13px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     display: block;
+}
+
+.message__bubble {
+    background-color: white;
+    padding: 10px 13px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__time {
+    opacity: 0.8;
+    font-size: 13px;
 }
