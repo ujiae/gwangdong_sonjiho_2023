@@ -7,10 +7,14 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
+@import "components/alt-screen-header.css";
+
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/talk.css";
 
 body {
     color : #2e363e;
@@ -19,3 +23,6 @@ body {
 
 
 
+.main-screen {
+    padding: 0px 25px;
+}
